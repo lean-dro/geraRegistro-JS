@@ -226,7 +226,7 @@ function geraData(){
 
     let anoTxt = ano.toString();
 
-    data = diaTxt+"/"+mesTxt+"/"+anoTxt;
+    data = anoTxt+"-"+diaTxt+"-"+mesTxt;
 
     return this.data;
     }
